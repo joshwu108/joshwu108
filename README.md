@@ -82,7 +82,7 @@ I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building 
   <img
     width="49%"
     height="195px"
-    src="https://github-readme-stats-iwv4-2jpi4rbzx-joshua-wus-projects-225df518.vercel.app?username=joshwu108&show_icons=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&rank_icon=github&cache_seconds=86400&theme=transparent&v=1"
+    src="https://github-readme-stats-iwv4-2jpi4rbzx-joshua-wus-projects-225df518.vercel.app?
     alt="Josh's GitHub stats"
   />
   <img
@@ -97,17 +97,8 @@ I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building 
 
 ## Contact
 
-<br/>
-  <a href="https://github.com/joshwu108" target="_blank" rel="noopener noreferrer">
-    <img alt="GitHub" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/joshua-s-wu/" target="_blank" rel="noopener noreferrer">
-    <img alt="LinkedIn" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:joshwu10806@gmail.com">
-    <img alt="Email" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" />
-  </a>
+- GitHub: https://github.com/joshwu108  
+- Email: **joshwu10806@gmail.com**  
+- LinkedIn: https://www.linkedin.com/in/joshua-s-wu/
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,15,23,25,30&height=100&section=footer" alt="footer"/>
