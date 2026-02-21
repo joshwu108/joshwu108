@@ -79,13 +79,8 @@ I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building 
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats-r2y1.vercel.app/api?username=joshwu108&show_icons=true&count_private=true&include_all_commits=true" />
-  <img
-    width="41%"
-    height="195px"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=joshwu108&layout=compact&hide_border=true&title_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&langs_count=10&cache_seconds=86400&theme=transparent&v=1"
-    alt="Top languages"
-  />
+  <img src="https://github-readme-stats-r2y1.vercel.app/api?username=joshwu108&show_icons=true&count_private=true&include_all_commits=true&v=1" />
+  <img src="https://github-readme-stats-r2y1.vercel.app/api/top-langs/?username=joshwu108&layout=compact&v=1" />
 </div>
 
 ---
