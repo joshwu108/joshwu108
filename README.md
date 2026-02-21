@@ -82,7 +82,7 @@ I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building 
   <img
     width="49%"
     height="195px"
-    src="https://github-readme-stats-iwv4-2jpi4rbzx-joshua-wus-projects-225df518.vercel.app?
+    src="https://github-readme-stats-r2y1-glk83aneq-joshua-wus-projects-225df518.vercel.app?
     alt="Josh's GitHub stats"
   />
   <img
