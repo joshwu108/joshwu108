@@ -44,7 +44,7 @@ I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building 
 | 🚀 Project | What it is | Tech | Notes / Results |
 |---|---|---|---|
 | **[Veneer Lounge](https://github.com/joshwu108/VeneerLounge)** | Real-Time Veneer Generation | `React` `Segmentation Models`, `StableDiffusion` | Built for VeneerLounge through Nova Consulting |
-| **[Vibe Check](https://github.com/joshwu108/VibeCheck)** | Streamlining collaboration between small artists | `Godot` `Game Dev` | Built with Texas Convergent |
+| **[Vibe Check](https://github.com/joshwu108/VibeCheck)** | Streamlining collaboration between small artists | `React-Native` `Mobile Development` | Built with Texas Convergent |
 | **[FinanceBro](https://github.com/joshwu108/FinanceBro)** | Personal finance tracker or investment analysis tool | `Python` `Data` `APIs` | Budgeting, portfolio tracking, or market insights |
 | **[ZoneZero](https://github.com/joshwu108/ZoneZero)** | Personal Insights for Marathon Training| `Full-Stack` | Didn't want to pay for strava premium |
 | **[physics-engine-](https://github.com/joshwu108/physics-engine-)** | Custom physics simulation engine | `Python` `Math` | Collision detection, gravity, rigid body dynamics |
