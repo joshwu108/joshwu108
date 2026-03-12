@@ -39,17 +39,14 @@ I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building 
 
 ## Pinned Projects (Highlights)
 
-> Replace the rows below with your actual pinned repos.  
-> If you send me your pinned list, I’ll rewrite these descriptions to be specific and sharp.
-
 <div align="center">
 
 | 🚀 Project | What it is | Tech | Notes / Results |
 |---|---|---|---|
-| **[Astreaus](https://github.com/joshwu108/Astreaus)** | Space exploration simulation or visualization tool | `Python` `APIs` | Modeling orbital mechanics or space data |
-| **[Pirates_Of_The_Caribbean](https://github.com/joshwu108/Pirates_Of_The_Caribbean)** | Adventure-themed game or interactive experience | `JavaScript` `Game Dev` | Fun project exploring game logic |
+| **[Astreaus](https://github.com/joshwu108/Astreaus)** | Toyota Vehicle Purchase Dashboard | `React` `Gemini-API` | Built for Toyota Financial Services at HackTX |
+| **[Pirates_Of_The_Caribbean](https://github.com/joshwu108/Pirates_Of_The_Caribbean)** | Adventure-themed game or interactive experience | `Godot` `Game Dev` | Fun project exploring game logic |
 | **[FinanceBro](https://github.com/joshwu108/FinanceBro)** | Personal finance tracker or investment analysis tool | `Python` `Data` `APIs` | Budgeting, portfolio tracking, or market insights |
-| **[ZoneZero](https://github.com/joshwu108/ZoneZero)** | Digital territory/zone-based application | `Full-Stack` | Exploring spatial or domain-based logic |
+| **[ZoneZero](https://github.com/joshwu108/ZoneZero)** | Personal Insights for Marathon Training| `Full-Stack` | Didn't want to pay for strava premium |
 | **[physics-engine-](https://github.com/joshwu108/physics-engine-)** | Custom physics simulation engine | `Python` `Math` | Collision detection, gravity, rigid body dynamics |
 | **[DNS-Tunneling-Detection](https://github.com/joshwu108/DNS-Tunneling-Detection)** | Security tool to detect covert DNS tunnel traffic | `Python` `Networking` `ML` | Identifies data exfiltration via DNS queries |
 
