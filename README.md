@@ -73,9 +73,24 @@ I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building 
 
 ---
 
-## GitHub Stats
+<!-- GitHub Analytics -->
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> GitHub Analytics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=joshwu108&show_icons=true&theme=radical)
+<div align="center">
+  
+  <!-- Stats Cards -->
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=joshwu108&show_icons=true&count_private=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&rank_icon=github" alt="Joshua's GitHub stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joshwu108&layout=compact&hide_border=true&title_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&langs_count=10&hide=html,css" />
+  
+  <!-- Streak Stats -->
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=joshwu108&theme=black-ice&hide_border=true&stroke=0000&background=0d1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&dates=ffffff" alt="Joshua's GitHub streak"/>
+  
+  <!-- Activity Graph -->
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=joshwu108&bg_color=0d1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph"/>
+  
+  <!-- Trophy Display -->
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=joshwu108&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+</div>
 
 ---
 
