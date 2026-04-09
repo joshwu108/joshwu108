@@ -79,7 +79,6 @@ I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building 
 <div align="center">
   
   <!-- Stats Cards -->
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=joshwu108&show_icons=true&count_private=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&rank_icon=github" alt="Joshua's GitHub stats" /> 
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joshwu108&layout=compact&hide_border=true&title_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&langs_count=10&hide=html,css" />
   
   <!-- Streak Stats -->
