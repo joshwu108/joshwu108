@@ -90,7 +90,6 @@ I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building 
 ## Contact
 
 - GitHub: https://github.com/joshwu108  
-- Email: **joshwu10806@gmail.com**  
 - LinkedIn: https://www.linkedin.com/in/joshua-s-wu/
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,15,23,25,30&height=100&section=footer" alt="footer"/>
