@@ -41,10 +41,9 @@ I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building 
 | 🚀 Project | What it is | Tech | Notes / Results |
 |---|---|---|---|
 | **[Veneer Lounge](https://github.com/joshwu108/VeneerLounge)** | Real-Time Veneer Generation | `React` `Segmentation Models`, `StableDiffusion` | Built for VeneerLounge through Nova Consulting |
-| **[Vibe Check](https://github.com/joshwu108/VibeCheck)** | Streamlining collaboration between small artists | `React-Native` `Mobile Development` | Built with Texas Convergent |
-| **[FinanceBro](https://github.com/joshwu108/FinanceBro)** | Personal finance tracker or investment analysis tool | `Python` `Data` `APIs` | Budgeting, portfolio tracking, or market insights |
-| **[ZoneZero](https://github.com/joshwu108/ZoneZero)** | Personal Insights for Marathon Training| `Full-Stack` | Didn't want to pay for strava premium |
-| **[physics-engine-](https://github.com/joshwu108/physics-engine-)** | Custom physics simulation engine | `Python` `Math` | Collision detection, gravity, rigid body dynamics |
+| **[Martingale](https://github.com/joshwu108/Martingale)** | Correctness-oriented infrastructure/toolchain for exact off-policy staleness accounting in asynchronous policy-gradient RL | `Python` `Reinforcement Learning` `Exact Arithmetic` `Prometheus/Observability` | Verifiable ledger + independent checker for staleness accountability |
+| **[Reservoir](https://github.com/joshwu108/Reservoir)** | Fast, auditable prioritized replay for PyTorch training loops with C acceleration, crash-safe durability, and cryptographic attestations | `Python` `PyTorch` `C` `Machine Learning` | Includes forgetting monitoring and preference-noise detection |
+| **[Meridian](https://github.com/joshwu108/Meridian)** | eBPF-native service mesh data plane with SPIFFE/mTLS identity, L7 policy, telemetry, and an xDS-compatible control plane | `C/eBPF` `Go` `Linux` `Networking` | Kernel-speed data plane with gRPC/xDS-driven control |
 | **[DNS-Tunneling-Detection](https://github.com/joshwu108/DNS-Tunneling-Detection)** | Security tool to detect covert DNS tunnel traffic | `Python` `Networking` `ML` | Identifies data exfiltration via DNS queries |
 
 </div>
