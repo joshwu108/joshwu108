@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/joshua-s-wu/">LinkedIn</a> &nbsp; / &nbsp;
-  <a href="mailto:joshwu10806@gmail.com">Email</a> &nbsp; / &nbsp;
+  <a href="mailto:jsw3839@my.utexas.edu">Email</a> &nbsp; / &nbsp;
   <a href="https://github.com/joshwu108?tab=repositories">All projects</a>
 </p>
 
