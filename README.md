@@ -1,91 +1,75 @@
-# README
-<div align="center">
+<p align="center">
+  <img src="assets/profile-header.svg" width="100%" alt="Josh Wu — ML research and ML systems" />
+</p>
 
-  <!-- Animated Wave Header -->
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,15,23,25,30&height=200&section=header&text=Josh%20Wu&fontSize=65&fontAlignY=35&animation=twinkling&desc=Building%20Practical%20Software%20Systems%20%7C%20Shipping%20End-to-End%20Projects&descSize=20&descAlignY=52" alt="header"/>
+<p align="center">
+  <a href="https://www.linkedin.com/in/joshua-s-wu/">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="mailto:joshwu10806@gmail.com">Email</a> &nbsp; / &nbsp;
+  <a href="https://github.com/joshwu108?tab=repositories">All projects</a>
+</p>
 
-  <!-- Dynamic Typing Introduction -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Full-Stack+Developer+%7C+Systems+%26+Automation;Projects%3A+Web+Apps%2C+APIs%2C+Tooling%2C+Data;Always+learning%2C+always+shipping" alt="Typing SVG" />
+## Research questions, working systems.
 
-  <!-- Professional Links -->
-  <br/>
-  <a href="https://github.com/joshwu108">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=101010" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/joshua-s-wu/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010" alt="LinkedIn" />
-  </a>
-  &nbsp;
+I'm **Josh**, a Computer Science & Math student at **UT Austin** and an **ML Systems Researcher with LDOS**. I'm interested in how learning algorithms behave in practice, and in building the infrastructure to make them faster, reproducible, and easier to understand.
 
-</div>
+My current focus is **LLM reinforcement learning, reliable training systems, and efficient generative model inference**. I like work that connects a research question to an implementation, a profiler trace, and an experiment someone else can reproduce.
 
-<br/>
+### What I'm exploring
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+- **Learning dynamics:** off-policy drift, rollout reuse, and the gap between inference engines and trainers.
+- **Trustworthy ML infrastructure:** exact sampling, verifiable experiment records, and recovery after failures.
+- **Efficient inference:** GPU profiling, diffusion pipelines, and the systems bottlenecks around the model.
 
-## About Me
+## Selected projects
 
-I’m **Josh Wu** ([@joshwu108](https://github.com/joshwu108)). I like building **useful, end-to-end software**—from idea → implementation → deployment—especially projects that balance clean engineering with real-world constraints (performance, reliability, UX, and maintainability).
+<!-- These are the README's curated project highlights; GitHub profile pins are managed separately. -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>01 / RL TRAINING DIAGNOSTICS</sub>
+      <h3><a href="https://github.com/joshwu108/Martingale">Martingale ↗</a></h3>
+      <p>A flight recorder and doctor for LLM RL. Tracks per-token policy revisions and log probabilities to separate rollout staleness from engine–trainer mismatch.</p>
+      <p><strong>Finding:</strong> traced a silent GRPO mismatch to float32 updates below bfloat16 precision.</p>
+      <p><code>Python</code> <code>PyTorch</code> <code>TRL / verl</code> <code>vLLM</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <sub>02 / REPRODUCIBLE REPLAY</sub>
+      <h3><a href="https://github.com/joshwu108/Reservoir">Reservoir ↗</a></h3>
+      <p>Exact, auditable replay for LLM RL. Reuses rollouts through prioritized sampling, with deterministic draws, durable storage, and an independent verifier.</p>
+      <p><strong>Design:</strong> make every sampled batch reproducible and every replay decision inspectable.</p>
+      <p><code>Python / C</code> <code>PyTorch</code> <code>TRL / verl</code> <code>TLA+</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>03 / DIFFUSION SERVING</sub>
+      <h3><a href="https://github.com/joshwu108/StreamDiffusionUDP">StreamDiffusionUDP ↗</a></h3>
+      <p>My work extending StreamDiffusion with a binary UDP transport for real-time diffusion serving, including fragmentation and reassembly.</p>
+      <p><strong>Result:</strong> 12% lower median serving latency than HTTP/JSON/base64 in my benchmark.</p>
+      <p><code>Python</code> <code>Diffusion</code> <code>UDP</code> <code>Profiling</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <sub>04 / SYSTEMS FOUNDATIONS</sub>
+      <h3><a href="https://github.com/joshwu108/Meridian">Meridian ↗</a></h3>
+      <p>An eBPF-native service mesh project in Go and C. Explores kernel-level network policy, identity, telemetry, and an xDS-compatible control plane.</p>
+      <p><strong>Approach:</strong> fail-closed behavior, fault injection, and benchmarks that guide what to keep.</p>
+      <p><code>Go</code> <code>C / eBPF</code> <code>Linux</code> <code>gRPC</code></p>
+    </td>
+  </tr>
+</table>
 
-- Building: **projects you can run, deploy, and iterate on**
-- Interests: **full-stack apps, backend systems, automation/tooling, data-driven features**
-- Values: **clarity, correctness, and shipping**
+**Also built:** [VeneerLounge](https://github.com/joshwu108/VeneerLounge), an applied generative AI project for dental veneer previews, built through Nova Consulting.
 
----
+## From research to implementation
 
-## Pinned Projects (Highlights)
+At **UT Austin LDOS**, I've worked on GPU profiling and real-time diffusion pipelines, including improving a two-GPU video diffusion pipeline from **17.4 to 41.4 FPS** by identifying and replacing a VAE bottleneck. Previously, I worked on transaction search infrastructure at **Visa** and retrieval and research tools at **MIT CSAIL & Harvard**.
 
-<div align="center">
-
-| 🚀 Project | What it is | Tech | Notes / Results |
-|---|---|---|---|
-| **[Veneer Lounge](https://github.com/joshwu108/VeneerLounge)** | Real-Time Veneer Generation | `React` `Segmentation Models`, `StableDiffusion` | Built for VeneerLounge through Nova Consulting |
-| **[Martingale](https://github.com/joshwu108/Martingale)** | Correctness-oriented infrastructure/toolchain for exact off-policy staleness accounting in asynchronous policy-gradient RL | `Python` `Reinforcement Learning` `Exact Arithmetic` `Prometheus/Observability` | Verifiable ledger + independent checker for staleness accountability |
-| **[Reservoir](https://github.com/joshwu108/Reservoir)** | Fast, auditable prioritized replay for PyTorch training loops with C acceleration, crash-safe durability, and cryptographic attestations | `Python` `PyTorch` `C` `Machine Learning` | Includes forgetting monitoring and preference-noise detection |
-| **[Meridian](https://github.com/joshwu108/Meridian)** | eBPF-native service mesh data plane with SPIFFE/mTLS identity, L7 policy, telemetry, and an xDS-compatible control plane | `C/eBPF` `Go` `Linux` `Networking` | Kernel-speed data plane with gRPC/xDS-driven control |
-| **[DNS-Tunneling-Detection](https://github.com/joshwu108/DNS-Tunneling-Detection)** | Security tool to detect covert DNS tunnel traffic | `Python` `Networking` `ML` | Identifies data exfiltration via DNS queries |
-
-</div>
-
----
-
-## What I Work With
-
-<div align="center">
-
-### Development
-<img src="https://img.shields.io/badge/TypeScript-JS%2FTS-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=101010" />
-<img src="https://img.shields.io/badge/Python-Automation%2FBackends-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=101010" />
-<img src="https://img.shields.io/badge/Node.js-APIs-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=101010" />
-<img src="https://img.shields.io/badge/React-UI-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=101010" />
-
-### Infra / Tooling
-<img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=101010" />
-<img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=101010" />
-<img src="https://img.shields.io/badge/PostgreSQL-Data-316192?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=101010" />
-
-</div>
-
----
-
-<!-- GitHub Analytics -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> GitHub Analytics
-
-<div align="center">
-  
-  <!-- Streak Stats -->
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=joshwu108&theme=black-ice&hide_border=true&stroke=0000&background=0d1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&dates=ffffff" alt="Joshua's GitHub streak"/>
-  
-  <!-- Activity Graph -->
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=joshwu108&bg_color=0d1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph"/>
-</div>
+| Area | Tools I work with |
+| :--- | :--- |
+| ML & experiments | Python, PyTorch, JAX, NumPy, CUDA, OpenCV |
+| Systems & performance | C++, C, Go, Linux, eBPF, profiling |
+| Infrastructure & data | Docker, Kubernetes, AWS, PostgreSQL, Kafka, OpenSearch |
 
 ---
 
-## Contact
-
-- GitHub: https://github.com/joshwu108  
-- LinkedIn: https://www.linkedin.com/in/joshua-s-wu/
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,15,23,25,30&height=100&section=footer" alt="footer"/>
+Interested in **ML research, training infrastructure, or inference systems**? [Let's connect.](https://www.linkedin.com/in/joshua-s-wu/)
