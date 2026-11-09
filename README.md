@@ -10,7 +10,7 @@
 
 ## Research questions, working systems.
 
-I'm **Josh**, a Computer Science & Math student at **UT Austin** and an **ML Systems Researcher with LDOS**. I'm interested in how learning algorithms behave in practice, and in building the infrastructure to make them faster, reproducible, and easier to understand.
+I'm **Josh**, a Computer Science & Mathematics student at **UT Austin** and an **ML Systems Researcher with LDOS**. I'm interested in how learning algorithms behave in practice, and in building the infrastructure to make them faster, reproducible, and easier to understand.
 
 My current focus is **LLM reinforcement learning, reliable training systems, and efficient generative model inference**. I like work that connects a research question to an implementation, a profiler trace, and an experiment someone else can reproduce.
 
